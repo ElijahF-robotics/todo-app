@@ -56,7 +56,7 @@
 		<DevButton onclick={togglePopup} title="Create modal Popup"></DevButton>
 		<Modal bind:modalVisible={popup}>
 		    <DevWidget title="Modal Test Popup">
-				<p>Here's some text</p>
+				<p>Here's some text, but updated</p>
 			</DevWidget>
 		</Modal>
 

@@ -8,10 +8,11 @@
     let selectedOption: Option = $state('Today');
 </script>
 
-<UnderConstruction/>
+<!-- Used on main branch to hide actual app -->
+<!-- <UnderConstruction/> -->
 
 <!-- Render the Sidebar most left -->
-<!-- <SideBar bind:selectedOption={selectedOption}/>
+<SideBar bind:selectedOption={selectedOption}/>
 
 <!-- Render the main page -->
-<!-- <SelectedPage bind:selectedOption={selectedOption} /> -->
+<SelectedPage bind:selectedOption={selectedOption} />
